@@ -1,0 +1,50 @@
+.container{
+    gap: 50px;
+}
+.container > span {
+    color: grey;
+
+}
+
+.menu-gigs {
+     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.menu-gigs .left input {
+    height: 35px;
+    margin-left: 10px;
+    outline: none;
+}
+
+.menu-gigs .right {
+    display: flex;
+    justify-content: space-evenly;
+/* flex-direction: column; */
+    width: 200px;
+    /* border: 1px solid red; */
+}
+
+.sort-by {
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-gigs .right .sort-type {
+    color: black;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding-left: 10px;
+    width: 100px;
+    border: 1px solid rgb(204, 199, 199);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    border-radius: 5px;
+}

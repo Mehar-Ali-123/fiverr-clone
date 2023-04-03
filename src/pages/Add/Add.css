@@ -1,0 +1,55 @@
+
+
+
+.add-gig-left{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px 50px;
+    
+}
+
+.add-gig-right{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px 50px;
+ 
+}
+
+.add-gig-right input  , .add-gig-left input{
+    margin-bottom: 20px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+}
+
+.add-gig-left Select{
+    margin-bottom: 20px;
+    height: 40px;
+    border: 1px solid grey;
+    outline: none;
+    position: relative;
+}
+
+
+
+.add-gig-right textarea{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.add-gig-left textarea{
+    outline: none;
+    padding: 10px;
+}
+
+.add .add-gig-left button{
+    
+    height: 40px;
+    border-radius: 5px;
+    background: var(--secondary-color) !important;
+    color: var(--tertiary-color);
+}
+

@@ -1,0 +1,117 @@
+
+.container{
+    margin-top: 40px;
+    
+}
+.container .user-gig{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.container .user-gig h5{
+    color: black;
+}
+.container .user-gig img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+.new-gig-slider img{
+    padding: 30px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.user-gig-data{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.user-gig-data h5{
+    color: black;
+}
+
+.user-gig-data img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+}
+
+.review-div{
+    
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+.user-reviews{ 
+    margin-top: 30px;
+    gap: 20px;
+    display: flex;
+}
+
+.user-reviews img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+}
+
+.review-div .helpfull{
+    display: flex;
+    gap: 10px;
+}
+
+.review-div .helpfull p svg{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.right-div{
+    border: 1px solid lightgray;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    position: sticky;
+    top: 175px;
+}
+
+.right-div .right-div-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time-Revision{
+    display: flex;
+    justify-content: space-between;
+}
+.prompt-writting {
+    
+    display: flex;
+     align-items: center;
+    gap: 10px;
+}
+.prompt-writting img{
+width: 20px;
+height: 20px;
+
+}
+
+.right-div .bttn{
+    height: 40px;
+    border-radius: 5px;
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    border: none;
+}
+
+
+

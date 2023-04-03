@@ -1,0 +1,37 @@
+
+
+.my-gigs-container .title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-gigs-container .title button{
+   
+    height: 40px;
+    border-radius: 5px;
+    background: var(--secondary-color) !important;
+    color: var(--tertiary-color);
+    
+}
+table{
+    width: 100%;
+    
+}
+table tr{
+    
+    width: 100%;
+    height: 40px;
+    
+}
+.my-gigs-container table img{
+    width: 80px;
+    height: 50px;
+}
+
+svg{
+    cursor: pointer;
+}
+
+.my-gigs-container table tr:nth-child(even){
+    background: rgb(240, 240, 240);
+}

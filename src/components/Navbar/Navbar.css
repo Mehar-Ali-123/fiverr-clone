@@ -1,0 +1,116 @@
+.navbar-main{
+    z-index: 1000;
+    background: var(--primary-color);  
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    transition: 1s all ease-in-out;
+    color: var(--tertiary-color);
+}
+.navbar-main a{
+    color:  var(--tertiary-color)!important; 
+}
+
+
+.span{
+   
+    font-weight: bold;
+    color: var(--secondary-color);
+    
+}
+.button{
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+.button:hover{
+     color:  var(--tertiary-color)!important; 
+    background: var(--secondary-color);
+}
+
+ .search1 input{
+    width: 80%;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 0.5px solid rgb(0, 0, 0);
+    outline: none;
+    padding-left: 5px;
+}
+.search1 button{
+    width: 70px;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color:rgb(0, 0, 0) !important;
+    color: var(--tertiary-color);
+    border: none;
+}
+
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+color: var(--tertiary-color);
+ flex-wrap: wrap;
+}
+.hr{
+width: 100%;
+    border: 0.5px solid rgb(77, 77, 77);
+}
+
+.navbar-main-active a ,.navbar-main-active  span, .menu span{
+    color: black !important;
+    cursor: pointer;
+}
+
+.user{
+    display: flex;
+    gap: 10px;
+    position: relative;
+cursor: pointer;
+}
+
+.user img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.options{
+    z-index: 100;
+    background-color: #ffff;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 200px;
+    
+}
+.user span{
+    color: white;
+}
+
+.options span{
+    color: grey !important;
+    text-decoration: none;
+
+}
+ .options .link{
+    text-decoration: none;
+ }
+
+@media (max-width:400px){
+    .menu{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+}

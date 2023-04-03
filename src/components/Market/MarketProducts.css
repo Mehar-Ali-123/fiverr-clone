@@ -1,0 +1,31 @@
+.products-container{
+    padding: 40px;
+    justify-content: space-evenly;
+    
+}
+
+
+.products-container .products-data{
+
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.856);
+}
+
+.products-container .products-data span{
+    width: 20%;
+    border: 1.5px solid grey;
+    transition: 0.5s all ease-in-out;
+    
+}
+
+.products-data:hover span{
+    width: 40%;
+    border-color: var(--secondary-color);
+}
+
+.market-container h5{
+    color: black !important;
+}
